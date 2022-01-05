@@ -1,9 +1,14 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.0.31903.59
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31911.196
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsFormsApp1", "WindowsFormsApp1\WindowsFormsApp1.csproj", "{07EA62CD-5978-497B-A170-D11E0A543C72}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ebay_test", "Ebay_test\Ebay_test.csproj", "{EFE0CF73-107B-4068-A77D-8197574A2BFC}"
+	ProjectSection(ProjectDependencies) = postProject
+		{07EA62CD-5978-497B-A170-D11E0A543C72} = {07EA62CD-5978-497B-A170-D11E0A543C72}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +20,10 @@ Global
 		{07EA62CD-5978-497B-A170-D11E0A543C72}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{07EA62CD-5978-497B-A170-D11E0A543C72}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{07EA62CD-5978-497B-A170-D11E0A543C72}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EFE0CF73-107B-4068-A77D-8197574A2BFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EFE0CF73-107B-4068-A77D-8197574A2BFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EFE0CF73-107B-4068-A77D-8197574A2BFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EFE0CF73-107B-4068-A77D-8197574A2BFC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
